@@ -1,1 +1,60 @@
-# Gemini-With-Dat-Acqu-Ino
+# Architronic-IA
+
+_Este é um projeto educativo desenvolvido para auxiliar os alunos na disciplina de Arquitetura Computacional. Ele consiste em uma API e uma interface web que utilizam o serviço de inteligência artificial Google Generative AI (Gemini) para responder perguntas relacionadas ao tema da disciplina._
+
+## Instalação e Configuração
+
+### Clonar o repositório:
+
+```bash
+git clone https://github.com/MatheusFerreiraMatos/Gemini-With-Dat-Acqu-Ino.git
+```
+
+### Instalar as dependências:
+
+*Navegue até o diretório clonado e execute o seguinte comando para instalar as dependências necessárias:*
+
+```bash
+npm install
+```
+
+### Configurar as variáveis de ambiente:
+
+*O arquivo .env contém as variáveis de ambiente necessárias para configurar a aplicação. Você deve definir as seguintes variáveis:*
+
+```env
+MINHA_CHAVE='sua_chave_do_Google_Generative_AI'
+PORTA=3333
+```
+
+_*Substitua 'sua_chave_do_Google_Generative_AI' pela sua chave de API do Google Generative AI.*_
+
+## Utilização
+
+### Iniciar o servidor:
+
+*Para iniciar o servidor, execute o seguinte comando:*
+
+```bash
+npm start
+```
+
+### Acessar a interface web:
+
+*Abra o arquivo index.html em um navegador da web para acessar a interface de usuário. Você poderá digitar uma pergunta e clicar no botão "Gerar Resposta" para receber uma resposta da inteligência artificial.*
+
+## Estrutura do Projeto
+
+- **main.js:** Este arquivo contém o código principal da API, incluindo a configuração do servidor Express e a definição das rotas.
+- **index.html:** Esta é a interface de usuário web que permite aos usuários interagir com a API.
+- **.env:** Este arquivo contém as variáveis de ambiente necessárias para configurar o projeto, incluindo a chave de API do Google Generative AI e a porta do servidor.
+- **package.json:** Este arquivo contém as informações do projeto e as dependências necessárias.
+
+### Fontes bibliográficas
+
+- [1] [NodeJs](https://nodejs.org/en)
+- [2] [NPM](https://nodejs.org/en)
+- [3] [Gemini](https://nodejs.org/en)
+- [4] [DotEnv](https://www.npmjs.com/package/express)
+- [5] [Express](https://www.npmjs.com/package/express)
+- [6] [Get started with the Gemini API in Node.js applications](https://ai.google.dev/tutorials/get_started_node?hl=en)
