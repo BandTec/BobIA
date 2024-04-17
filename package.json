@@ -1,0 +1,24 @@
+{
+  "name": "gemini-with-dat-acqu-ino",
+  "version": "1.0.0",
+  "description": "Chat de para auxilio em soluções e dúvidas no uso da aplicação Dat Acqu Ino.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatheusFerreiraMatos/Gemini-With-Dat-Acqu-Ino.git"
+  },
+  "author": "@MatheusFerreiraMatos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatheusFerreiraMatos/Gemini-With-Dat-Acqu-Ino/issues"
+  },
+  "homepage": "https://github.com/MatheusFerreiraMatos/Gemini-With-Dat-Acqu-Ino#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.7.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
