@@ -3,10 +3,10 @@ const express = require("express");
 
 require("dotenv").config();
 
-const chatIA = new GoogleGenerativeAI(process.env.MINHA_CHAVE);
-
-const PORTA_SERVIDOR = process.env.PORTA;
 const app = express();
+const PORTA_SERVIDOR = process.env.PORTA;
+
+const chatIA = new GoogleGenerativeAI(process.env.MINHA_CHAVE);
 
 app.use(express.json());
 
@@ -24,7 +24,7 @@ app.post("/perguntar", async (req, res) => {
     const pergunta = req.body.pergunta;
 
     try {
-        const resultado = await gerarMensagem(pergunta);
+        const resultado = await gerarResposta(pergunta);
         res.json( { resultado } );
     } catch (error) {
         res.status(500).json({ error: 'Erro interno do servidor' });
@@ -32,7 +32,7 @@ app.post("/perguntar", async (req, res) => {
 
 });
 
-async function gerarMensagem(mensagem) {
+async function gerarResposta(mensagem) {
     const modeloIA = chatIA.getGenerativeModel({ model: "gemini-pro" });
 
     try {
