@@ -20,7 +20,7 @@ npm install
 
 ### Configurar as variáveis de ambiente:
 
-*O arquivo .env contém as variáveis de ambiente necessárias para configurar a aplicação. Você deve definir as seguintes variáveis:*
+*O arquivo .env deve ser criado e contém as variáveis de ambiente necessárias para configurar a aplicação. Você deve definir as seguintes variáveis:*
 
 ```env
 MINHA_CHAVE='sua_chave_do_Google_Generative_AI'
