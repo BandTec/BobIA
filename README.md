@@ -62,7 +62,7 @@ npm start
 Licenças
 ---------
 
-Este projeto é licenciado sob a licença Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0). Consulte o arquivo LICENSE para obter detalhes.
+Este projeto é licenciado sob a licença Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0). Consulte o arquivo LICENSE-CC-BY-NC para obter detalhes.
 
-Partes específicas deste projeto estão licenciadas sob a Licença MIT. Consulte o arquivo LICENSE-MIT para obter detalhes.
+Partes específicas deste projeto estão licenciadas sob a Licença MIT. Consulte o arquivo LICENSE para obter detalhes.
 
