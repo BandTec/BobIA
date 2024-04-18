@@ -56,7 +56,7 @@ npm start
 - Alexander Gonçalves (@gfalexander)
 - Marise Miranda (@miranda500)
 
-### Fontes bibliográficas
+## Fontes bibliográficas
 
 - [1] [NodeJs](https://nodejs.org/en)
 - [2] [NPM](https://nodejs.org/en)
