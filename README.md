@@ -52,7 +52,7 @@ npm start
 
 ## Autores
 
-- Matheus Ferreira Matos (@MatheusFerreiraMatos)
+- Matheus Matos (@MatheusFerreiraMatos)
 - Alexander Gonçalves (@gfalexander)
 - Marise Miranda (@miranda500)
 
