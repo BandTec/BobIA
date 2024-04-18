@@ -58,3 +58,11 @@ npm start
 - [4] [DotEnv](https://www.npmjs.com/package/express)
 - [5] [Express](https://www.npmjs.com/package/express)
 - [6] [Get started with the Gemini API in Node.js applications](https://ai.google.dev/tutorials/get_started_node?hl=en)
+
+Licenças
+---------
+
+Este projeto é licenciado sob a licença Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0). Consulte o arquivo LICENSE para obter detalhes.
+
+Partes específicas deste projeto estão licenciadas sob a Licença MIT. Consulte o arquivo LICENSE-MIT para obter detalhes.
+
