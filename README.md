@@ -50,6 +50,12 @@ npm start
 - **.env:** Este arquivo contém as variáveis de ambiente necessárias para configurar o projeto, incluindo a chave de API do Google Generative AI e a porta do servidor.
 - **package.json:** Este arquivo contém as informações do projeto e as dependências necessárias.
 
+## Autores
+
+- Matheus Ferreira Matos (@MatheusFerreiraMatos)
+- Alexander Gonçalves (@gfalexander)
+- Marise Miranda (@miranda500)
+
 ### Fontes bibliográficas
 
 - [1] [NodeJs](https://nodejs.org/en)
