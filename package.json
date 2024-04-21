@@ -1,7 +1,7 @@
 {
-  "name": "gemini-with-dat-acqu-ino",
-  "version": "1.0.0",
-  "description": "Chat de para auxilio em soluções e dúvidas no uso da aplicação Dat Acqu Ino.",
+  "name": "@architronic-ia",
+  "version": "1.0.1",
+  "description": "Aplicação para auxilio dos alunos na disciplina de Arquitetura de Computacional",
   "main": "main.js",
   "scripts": {
     "start": "node main.js",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MatheusFerreiraMatos/Gemini-With-Dat-Acqu-Ino.git"
+    "url": "git+https://github.com/MatheusFerreiraMatos/Architronic-IA.git"
   },
-  "author": "@MatheusFerreiraMatos",
+  "author": "@MatheusFerreiraMatos @gfalexander @miranda500",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MatheusFerreiraMatos/Gemini-With-Dat-Acqu-Ino/issues"
+    "url": "https://github.com/MatheusFerreiraMatos/Architronic-IA.git/issues"
   },
-  "homepage": "https://github.com/MatheusFerreiraMatos/Gemini-With-Dat-Acqu-Ino#readme",
+  "homepage": "https://github.com/MatheusFerreiraMatos/Architronic-IA.git#readme",
   "dependencies": {
     "@google/generative-ai": "^0.7.1",
     "dotenv": "^16.4.5",
