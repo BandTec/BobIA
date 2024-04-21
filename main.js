@@ -1,6 +1,7 @@
 // importando os bibliotecas necessárias
 const { GoogleGenerativeAI } = require("@google/generative-ai");
 const express = require("express");
+const path = require("path");
 
 // carregando as variáveis de ambiente do projeto do arquivo .env
 require("dotenv").config();
@@ -12,7 +13,11 @@ const PORTA_SERVIDOR = process.env.PORTA;
 // configurando o gemini (IA)
 const chatIA = new GoogleGenerativeAI(process.env.MINHA_CHAVE);
 
+// configurando o servidor para receber requisições JSON
 app.use(express.json());
+
+// configurando o servidor para servir arquivos estáticos
+app.use(express.static(path.join(__dirname, "public")));
 
 // configurando CORS
 app.use((req, res, next) => {
@@ -23,7 +28,18 @@ app.use((req, res, next) => {
 
 // inicializando o servidor
 app.listen(PORTA_SERVIDOR, () => {
-    console.info(`A API Gemini With HelpDesk está rodando na porta ${PORTA_SERVIDOR}`);
+    console.info(
+        `
+         #                                                                     ###    #    
+        # #   #####   ####  #    # # ##### #####   ####  #    # #  ####         #    # #   
+       #   #  #    # #    # #    # #   #   #    # #    # ##   # # #    #        #   #   #  
+      #     # #    # #      ###### #   #   #    # #    # # #  # # #      #####  #  #     # 
+      ####### #####  #      #    # #   #   #####  #    # #  # # # #             #  ####### 
+      #     # #   #  #    # #    # #   #   #   #  #    # #   ## # #    #        #  #     # 
+      #     # #    #  ####  #    # #   #   #    #  ####  #    # #  ####        ### #     # 
+        `
+    );
+    console.info(`A API Architronic iniciada, acesse http://localhost:${PORTA_SERVIDOR}`);
 });
 
 // rota para receber perguntas e gerar respostas
