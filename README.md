@@ -41,7 +41,7 @@ npm start
 
 ### Acessar a interface web:
 
-*Abra o arquivo index.html em um navegador da web para acessar a interface de usuário. Você poderá digitar uma pergunta e clicar no botão "Gerar Resposta" para receber uma resposta da inteligência artificial.*
+*Acesse http://localhost:3333 em um navegador da web para acessar a interface de usuário. Você poderá digitar uma pergunta e clicar no botão "Gerar Resposta" para receber uma resposta da inteligência artificial.*
 
 ## Estrutura do Projeto
 
