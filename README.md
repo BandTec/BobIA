@@ -1,4 +1,4 @@
-# Architronic-IA (Electronic Architecture IA)
+# BobIA
 
 _Este é um projeto educativo desenvolvido para auxiliar os alunos na disciplina de Arquitetura Computacional. Ele consiste em uma API e uma interface web que utilizam o serviço de inteligência artificial Google Generative AI (Gemini) para responder perguntas relacionadas ao tema da disciplina._
 
@@ -7,7 +7,7 @@ _Este é um projeto educativo desenvolvido para auxiliar os alunos na disciplina
 ### Clonar o repositório:
 
 ```bash
-git clone https://github.com/MatheusFerreiraMatos/Architronic-IA.git
+git clone https://github.com/MatheusFerreiraMatos/BobIA.git
 ```
 
 ### Instalar as dependências:

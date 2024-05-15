@@ -30,16 +30,16 @@ app.use((req, res, next) => {
 app.listen(PORTA_SERVIDOR, () => {
     console.info(
         `
-         #                                                                     ###    #    
-        # #   #####   ####  #    # # ##### #####   ####  #    # #  ####         #    # #   
-       #   #  #    # #    # #    # #   #   #    # #    # ##   # # #    #        #   #   #  
-      #     # #    # #      ###### #   #   #    # #    # # #  # # #      #####  #  #     # 
-      ####### #####  #      #    # #   #   #####  #    # #  # # # #             #  ####### 
-      #     # #   #  #    # #    # #   #   #   #  #    # #   ## # #    #        #  #     # 
-      #     # #    #  ####  #    # #   #   #    #  ####  #    # #  ####        ### #     # 
+        ######                ###    #    
+        #     #  ####  #####   #    # #   
+        #     # #    # #    #  #   #   #  
+        ######  #    # #####   #  #     # 
+        #     # #    # #    #  #  ####### 
+        #     # #    # #    #  #  #     # 
+        ######   ####  #####  ### #     # 
         `
     );
-    console.info(`A API Architronic iniciada, acesse http://localhost:${PORTA_SERVIDOR}`);
+    console.info(`A API BobIA iniciada, acesse http://localhost:${PORTA_SERVIDOR}`);
 });
 
 // rota para receber perguntas e gerar respostas

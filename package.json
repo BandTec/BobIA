@@ -1,6 +1,6 @@
 {
-  "name": "@architronic-ia",
-  "version": "1.0.1",
+  "name": "@bobia",
+  "version": "1.0.2",
   "description": "Aplicação para auxilio dos alunos na disciplina de Arquitetura de Computacional",
   "main": "main.js",
   "scripts": {
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MatheusFerreiraMatos/Architronic-IA.git"
+    "url": "git+https://github.com/MatheusFerreiraMatos/BobIA.git"
   },
   "author": "@MatheusFerreiraMatos @gfalexander @miranda500",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MatheusFerreiraMatos/Architronic-IA.git/issues"
+    "url": "https://github.com/MatheusFerreiraMatos/BobIA.git/issues"
   },
-  "homepage": "https://github.com/MatheusFerreiraMatos/Architronic-IA.git#readme",
+  "homepage": "https://github.com/MatheusFerreiraMatos/BobIA.git#readme",
   "dependencies": {
     "@google/generative-ai": "^0.7.1",
     "dotenv": "^16.4.5",
