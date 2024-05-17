@@ -7,7 +7,7 @@ _Este é um projeto educativo desenvolvido para auxiliar os alunos na disciplina
 ### Clonar o repositório:
 
 ```bash
-git clone https://github.com/MatheusFerreiraMatos/BobIA.git
+git clone https://github.com/BandTec/BobIA.git
 ```
 
 ### Instalar as dependências:
