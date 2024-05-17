@@ -27,7 +27,7 @@ MINHA_CHAVE='sua_chave_do_Google_Generative_AI'
 PORTA=3334
 ```
 
-_*Substitua 'sua_chave_do_Google_Generative_AI' pela sua chave de API do Google Generative AI.*_
+_*Substitua 'sua_chave_do_Google_Generative_AI' pela sua chave de API do Google Generative AI, conforme orientações em material de aula.*_
 
 ## Utilização
 
@@ -47,7 +47,7 @@ npm start
 
 - **main.js:** Este arquivo contém o código principal da API, incluindo a configuração do servidor Express e a definição das rotas.
 - **index.html:** Esta é a interface de usuário web que permite aos usuários interagir com a API.
-- **.env:** Este arquivo contém as variáveis de ambiente necessárias para configurar o projeto, incluindo a chave de API do Google Generative AI e a porta do servidor.
+- **.env:** Este arquivo contém as variáveis de ambiente necessárias para configurar o projeto, incluindo a chave de API do Google Generative AI e a porta do servidor. Você deve criar este arquivo após clonar o BobIA em sua máquina.
 - **package.json:** Este arquivo contém as informações do projeto e as dependências necessárias.
 
 ## Autores
