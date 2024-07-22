@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MatheusFerreiraMatos/BobIA.git"
+    "url": "git+https://github.com/BandTec/BobIA.git"
   },
   "author": "@MatheusFerreiraMatos @gfalexander @miranda500",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/MatheusFerreiraMatos/BobIA.git/issues"
+    "url": "https://github.com/BandTec/BobIA.git/issues"
   },
-  "homepage": "https://github.com/MatheusFerreiraMatos/BobIA.git#readme",
+  "homepage": "https://github.com/BandTec/BobIA.git#readme",
   "dependencies": {
     "@google/generative-ai": "^0.7.1",
     "dotenv": "^16.4.5",
