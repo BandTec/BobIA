@@ -24,7 +24,7 @@ npm install
 
 ```env
 MINHA_CHAVE='sua_chave_do_Google_Generative_AI'
-PORTA=3334
+PORTA=3000
 ```
 
 _*Substitua 'sua_chave_do_Google_Generative_AI' pela sua chave de API do Google Generative AI, conforme orientações em material de aula.*_
@@ -41,7 +41,7 @@ npm start
 
 ### Acessar a interface web:
 
-*Acesse http://localhost:3334 em um navegador da web para acessar a interface de usuário. Você poderá digitar uma pergunta e clicar no botão "Gerar Resposta" para receber uma resposta da inteligência artificial.*
+*Acesse http://localhost:3000 em um navegador da web para acessar a interface de usuário. Você poderá digitar uma pergunta e clicar no botão "Gerar Resposta" para receber uma resposta da inteligência artificial.*
 
 ## Estrutura do Projeto
 
