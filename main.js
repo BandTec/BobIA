@@ -61,7 +61,8 @@ async function gerarResposta(mensagem) {
     // obtendo o modelo de IA
     const modeloIA = chatIA.getGenerativeModel({ model: "gemini-pro" });
 
-    const fileContext = await lerPDF('./path/para/o/seu/pdf'); // aguarda o retorno do texto do PDF para salvar na variável (await/async)
+    // aguarda o retorno do texto do PDF para salvar na variável (await/async)
+    const fileContext = await lerPDF('./path/para/o/seu/pdf'); // exemplo de parâmetro: './files/aula01.pdf'
     const conteudo = `${fileContext}\n
         Baseado no arquivo enviado acima, responda essa pergunta (se não for do mesmo contexto dos arquivos, peça para que envie corretamente):
         """${mensagem}"""`; // cria uma resposta baseada no contexto do arquivo e da mensagem
