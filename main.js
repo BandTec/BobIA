@@ -1,5 +1,5 @@
 // importando os bibliotecas necessárias
-const { GoogleGenerativeAI } = require("@google/generative-ai");
+const { GoogleGenAI } = require("@google/genai");
 const express = require("express");
 const path = require("path");
 
@@ -11,7 +11,7 @@ const app = express();
 const PORTA_SERVIDOR = process.env.PORTA;
 
 // configurando o gemini (IA)
-const chatIA = new GoogleGenerativeAI(process.env.MINHA_CHAVE);
+const chatIA = new GoogleGenAI({ apiKey: process.env.MINHA_CHAVE });
 
 // configurando o servidor para receber requisições JSON
 app.use(express.json());
@@ -48,7 +48,7 @@ app.post("/perguntar", async (req, res) => {
 
     try {
         const resultado = await gerarResposta(pergunta);
-        res.json( { resultado } );
+        res.json({ resultado });
     } catch (error) {
         res.status(500).json({ error: 'Erro interno do servidor' });
     }
@@ -57,15 +57,19 @@ app.post("/perguntar", async (req, res) => {
 
 // função para gerar respostas usando o gemini
 async function gerarResposta(mensagem) {
-    // obtendo o modelo de IA
-    const modeloIA = chatIA.getGenerativeModel({ model: "gemini-pro" });
 
     try {
         // gerando conteúdo com base na pergunta
-        const resultado = await modeloIA.generateContent(`Em um paragráfo responda: ${mensagem}`);
-        const resposta = await resultado.response.text();
-        
+        const modeloIA = chatIA.models.generateContent({
+            model: "gemini-2.0-flash",
+            contents: `Em um paragráfo responda: ${mensagem}`
+
+        });
+        const resposta = (await modeloIA).text;
+        const tokens = (await modeloIA).usageMetadata;
+
         console.log(resposta);
+        console.log("Uso de Tokens:", tokens);
 
         return resposta;
     } catch (error) {

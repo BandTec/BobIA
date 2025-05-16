@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/BandTec/BobIA.git#readme",
   "dependencies": {
-    "@google/generative-ai": "^0.7.1",
+    "@google/genai": "^0.14.1",
     "dotenv": "^16.4.5",
     "express": "^4.19.2"
   }
