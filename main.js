@@ -61,7 +61,7 @@ async function gerarResposta(mensagem) {
     try {
         // gerando conteúdo com base na pergunta
         const modeloIA = chatIA.models.generateContent({
-            model: "gemini-2.0-flash",
+            model: "gemini-2.5-flash",
             contents: `Em um paragráfo responda: ${mensagem}`
 
         });
